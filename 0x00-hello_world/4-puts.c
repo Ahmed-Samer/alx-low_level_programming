@@ -1,11 +1,13 @@
-#include <stadio.h>
+#include <stdio.h>
 /**
- * main - Write a C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line.
+ * main - Entry point
+ * 
+ *Decription: A C program that prints with puts function
  *
  * Return: Always 0 (Success)
  */
-
-int main(void) {
+int main(void)
+{
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
