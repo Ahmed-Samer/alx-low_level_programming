@@ -3,8 +3,8 @@
 void swap_int(int *a, int *b){
 	
 	int number = *a ;
-	int *a = *b ;
-	int *b = number ;
+	 *a = *b ;
+	 *b = number ;
 	printf("a=%d, b=%d\n", *a, *b);
 
 
